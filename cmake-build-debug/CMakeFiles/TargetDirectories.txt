@@ -1,3 +1,0 @@
-/home/vava/Study/translator/cmake-build-debug/CMakeFiles/translator.dir
-/home/vava/Study/translator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vava/Study/translator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
