@@ -1,0 +1,42 @@
+﻿Построение начато 25.05.2013 14:48:23.
+     1>Проект "F:\TM\lab4\lab2\lab2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt translator.cpp
+         translator.cpp
+     1>f:\tm\lab4\lab2\translator.cpp(130): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(159): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(194): warning C4101: i: неиспользованная локальная переменная
+     1>f:\tm\lab4\lab2\translator.cpp(336): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(432): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(321): warning C4101: id_numb: неиспользованная локальная переменная
+     1>f:\tm\lab4\lab2\translator.cpp(516): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(528): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(554): warning C4018: <: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\translator.cpp(574): warning C4018: >: несоответствие типов со знаком и без знака
+     1>f:\tm\lab4\lab2\const_table.h(65): warning C4018: <: несоответствие типов со знаком и без знака
+                 f:\tm\lab4\lab2\const_table.h(64): при компиляции функции-члена "bool const_table<Table_type>::get_elemen_value(int,Table_type &)" класса шаблон
+                 with
+                 [
+                     Table_type=char
+                 ]
+                 f:\tm\lab4\lab2\translator.cpp(65): см. ссылку на создание экземпляров функции шаблон при компиляции "bool const_table<Table_type>::get_elemen_value(int,Table_type &)"
+                 with
+                 [
+                     Table_type=char
+                 ]
+                 f:\tm\lab4\lab2\translator.h(54): см. ссылку на создание экземпляров класса шаблон при компиляции "const_table<Table_type>"
+                 with
+                 [
+                     Table_type=char
+                 ]
+     1>f:\tm\lab4\lab2\translator.cpp(980): warning C4715: translator::check_tree_type: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\TM\lab4\Debug\lab234.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\TM\lab4\Debug\lab234.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\TM\lab4\Debug\lab234.lib" /MACHINE:X86 /SAFESEH Debug\launch.obj
+         Debug\translator.obj
+         Debug\variable_table.obj
+         lab2.vcxproj -> F:\TM\lab4\Debug\lab234.exe
+     1>Построение проекта "F:\TM\lab4\lab2\lab2.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:53.50
